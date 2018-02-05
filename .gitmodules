@@ -1,0 +1,3 @@
+[submodule "wsh.js"]
+	path = wsh.js
+	url = https://github.com/mattiasrunge/wsh.js.git
