@@ -5,6 +5,7 @@ module.exports = {
     entry: {
         bundle: [
             // we include only "terminal.js" as it is the main object:
+            "babel-polyfill",
             path.join(__dirname, "wsh.js.es5", "lib", "terminal.js")
         ],
         dist: [

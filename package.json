@@ -1,6 +1,6 @@
 {
   "name": "ng-wsh",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "WSH.js package for Angular (>= 2)",
   "main": "wsh.js.es6/lib/terminal.js",
   "scripts": {
