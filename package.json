@@ -13,12 +13,12 @@
     "type": "git",
     "url": "git+https://github.com/keyj/ng-wsh.git"
   },
-  "dependencies": {
-    "wsh.js": "file:wsh.js",
-    "wsh.js-build": "file:wsh.js/demo"
+  "dependencies":{
+    
   },
   "devDependencies": {
     "wsh.js": "file:wsh.js",
+    "wsh.js-build": "file:wsh.js/demo",
     "babel-cli": "^6.26.0",
     "babel-eslint": "^7.2.3",
     "babel-preset-env": "^1.6",
