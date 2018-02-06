@@ -21,26 +21,17 @@ module.exports = {
     },
     module: {
         rules: [
-            {
-                test: /\.js$/,
-                loader: "babel-loader",
-                exclude: (absPath) => {
-                    return /node_modules/.test(absPath);
-                },
-                options: {
-                    cacheDirectory: "babel_cache",
-                    presets: [
-                        require.resolve("babel-preset-es2015"),
-                        require.resolve("babel-preset-stage-1")
-                    ],
-                    plugins: [
-                        [ require.resolve("babel-plugin-transform-async-to-module-method"), {
-                            "module": "bluebird",
-                            "method": "coroutine"
-                        } ]
-                    ]
-                }
+          {
+            test: /\.js$/,
+            exclude: /(node_modules|bower_components)/,
+            use: {
+              loader: 'babel-loader',
+              options: {
+                presets: ['@babel/preset-env'],
+                // plugins: [require('@babel/plugin-proposal-object-rest-spread')]
+              }
             }
+          }
         ]
     },
     plugins: [
