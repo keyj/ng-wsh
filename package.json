@@ -1,8 +1,8 @@
 {
   "name": "ng-wsh",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "WSH.js package for Angular (>= 2)",
-  "main": "wsh.js.es6/lib/terminal.js",
+  "main": "build/bundle.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "transpile": "babel --presets es2015 wsh.js/lib --out-dir wsh.js.es5/lib",
