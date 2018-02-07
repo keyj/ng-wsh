@@ -9,13 +9,20 @@ Steps roughly include:
 ** path: build/bundle.js
 
 
-# build
+# build (manual on local machine)
 
 ```
 npm install
 npm install --only=dev
 npm run build
 ```
+
+# build (with docker)
+
+```
+docker-compose run node /bin/bash /app/build-module.sh
+```
+* results in new versions of bundle.js and dist.js in build/
 
 # Authors
 * Janko Ahlbrandt (keyj)
