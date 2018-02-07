@@ -1,6 +1,6 @@
 {
   "name": "ng-wsh",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "WSH.js package for Angular (>= 2)",
   "main": "build/bundle.js",
   "scripts": {
