@@ -5,7 +5,7 @@ module.exports = {
     entry: {
         bundle: [
             // we include only "terminal.js" as it is the main object:
-            "babel-polyfill",
+            // "babel-polyfill",
             path.join(__dirname, "wsh.js.es5", "lib", "terminal.js")
         ],
         dist: [
@@ -27,7 +27,7 @@ module.exports = {
             use: {
               loader: 'babel-loader',
               options: {
-                presets: ['@babel/preset-env'],
+                presets: ['babel-preset-env'],
                 // plugins: [require('@babel/plugin-proposal-object-rest-spread')]
               }
             }
