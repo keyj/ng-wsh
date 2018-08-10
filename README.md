@@ -27,5 +27,5 @@ docker-compose run node /bin/bash /app/build-module.sh
 # Authors
 * Janko Ahlbrandt (keyj)
 
-# acknoledgements
+# acknowledgements
 * This uses the great work put into WSH.js (https://github.com/mattiasrunge/wsh.js) - thanks for a great project!
